@@ -211,7 +211,8 @@ h2 {
 }
 
 input,
-select {
+select,
+textarea {
   margin-top: 0.35rem;
   width: 100%;
   border: 1px solid #cedbd4;
@@ -394,4 +395,16 @@ select {
   .nav-links {
     display: none;
   }
+}
+
+
+.page-link {
+  border: 1px solid #d0ded7;
+  background: #fff;
+  border-radius: 0.7rem;
+  padding: 0.95rem;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--ink);
 }
